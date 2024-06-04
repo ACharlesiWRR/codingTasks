@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  background-color: #C4FFC4;
+  padding: 40px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.App-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 80vw;
+  max-height: 80vh;
+  border: 3px solid #000000;
+  border-radius: 20px;
+  padding: 20px; 
+  background-color: #ffffff;
+  row-gap: 20px;
+  font-size: 24px
+}
+
+h1 {
+  font-size: 56px;
+}
+
+.output-weather {
+  background-color: yellow; 
+  padding: 20px;
+}
