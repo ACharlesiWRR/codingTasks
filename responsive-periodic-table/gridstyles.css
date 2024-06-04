@@ -1,0 +1,213 @@
+body {
+    max-width: 90vw;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+main {
+    padding-bottom: 20px;
+}
+
+/* Grid styles go here */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: auto auto;
+ }
+
+
+.grid-item {
+    text-align: center;
+    border: 1px solid black;
+    padding: 3px;
+    margin: 1px;
+}
+
+.row-1 {
+    grid-row: 1;
+}
+
+.row-2 {
+    grid-row: 2;
+}
+
+.row-3 {
+    grid-row: 3;
+}
+
+.row-4 {
+    grid-row: 4;
+}
+
+.row-5 {
+    grid-row: 5;
+}
+
+.row-6 {
+    grid-row: 6;
+}
+
+.row-7 {
+    grid-row: 7;
+}
+
+.row-8 {
+    grid-row: 8;
+}
+
+.row-9 {
+    grid-row: 9;
+}
+
+
+/* Font styles go are here, probably makes sense to use em instead of small? */
+
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 0.6rem;
+}
+
+p {
+    font-size: 0.5rem;
+}
+
+/* Spacing here */
+
+main {
+    margin-top: 30px;
+}
+
+.elementNumbers {
+    padding: 6px;
+}
+
+/* Floating Element Numbers to the sides of the element container */
+
+p.elementNumber {
+
+    float: left;    
+}
+
+p.elementValue {
+
+    float: right;
+}
+
+/* Footer styles */ 
+
+footer {
+
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-top:20px; 
+    padding-bottom: 20px;
+
+}
+
+@media screen and (min-width: 650px) {
+
+    #periodic_img_small {
+        display: none;
+        }
+}
+
+
+@media screen and (max-width: 650px) {
+
+    .grid-container {
+        display: none;
+    }
+
+}
+
+/* Media queries for font size and spacing */
+
+@media screen and (max-width: 1350px) {
+
+h2 {
+    font-size: 18px;
+    padding: 6px auto auto auto;
+    }
+    
+.grid-item {
+    
+    padding: 1px;
+    margin: 1px;
+    }
+
+h3 {
+    font-size: 0.6rem;
+    padding: 3px;
+}
+
+
+p {
+
+    font-size: 0.5rem;
+    /* padding: 3px; */
+    }
+
+.elementNumbers {
+    padding: 3px;
+    }
+    
+}
+
+@media screen and (max-width: 1100px){
+
+    h2 {
+    font-size: 16px;
+    padding: 4px auto auto auto;
+    }
+
+    h3 {
+    font-size: 0.5rem;
+    padding: 2px;
+    }
+    
+    p {
+    font-size: 0.4rem;
+    /* padding: 2px; */
+    }
+
+    .elementNumbers {
+    padding: 2px;
+    }
+
+}
+
+
+@media screen and (max-width: 950px){
+
+    h2 {
+    font-size: 12px;
+    padding: 2px auto auto auto;
+    }
+
+    h3 {
+    font-size: 0.4rem;
+    padding: 2px;
+    }
+    
+    
+    p {
+
+    font-size: 0.3rem;
+    /* padding: 1px; */
+    }
+
+    .elementNumbers {
+    padding: 1px;
+    }
+    
+    
+}
+
+/* References: I spent quite a bit  of time on CSS Tricks during this task. */

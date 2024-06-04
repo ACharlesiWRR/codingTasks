@@ -1,0 +1,306 @@
+<!-- Recreate a periodic table -->
+<!-- it should be responsive until it loses it's structure -->
+<!-- then replace with an image of a periodic table by making elements disappear using display attribute -->
+
+<!--This attempt is using a flexbox layout-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Flexbox Periodic Page Task 4">
+    <title>Task 4 - Periodic Table - Flexbox</title>
+    <link href="flexstyles.css" rel="stylesheet">
+
+</head>
+
+ <body>
+    <header>
+        <h1> Periodic Table of Elemments</h1>
+    </header>
+
+<hr> 
+
+<!-- Main body of Periodic table-->
+
+    <main class="flex-container">
+
+            <!--Row 1 here -->
+            <div class="row-1">
+                <div class="flex-item" style="background-color: lightyellow; justify-content: flex-start>
+                    <div class="elementNumbers">
+                    <p class="elementNumber">1</p>
+                    <p class="elementValue">1.0080</p>
+                </div>
+                <h2>H</h2>
+                <H3>Hydrogen</H3>
+                <p>Nonmental</p>
+                </div>
+       
+                <!-- <div class="flex-item" style="border: none; flex-grow: 10;">
+                <h2></h2>
+                <H3></H3>
+                <p></p>
+                </div> -->
+
+                <div class="flex-item" style="background-color: orange; ">
+                    <h2>He</h2>
+                    <H3>Helium</H3>
+                    <p>Noble Gas</p>
+                </div>
+            </div>
+
+
+             <!--Row 2 here -->
+
+            <div class="row-2">
+                <div class="flex-item" style="background-color: lightpink; justify-content: flex-end">
+                    <div class="elementNumbers">
+                        <p class="elementNumber">3</p>
+                        <p class="elementValue">7.0</p>
+                    </div>
+                    <h2>Li</h2>
+                    <H3>Lithium</H3>
+                    <p>Alkali Metal</p>
+                </div>
+
+                <div class="flex-item" style="background-color: lightblue;">
+                    <h2>Be</h2>
+                    <H3>Beryllium</H3>
+                    <p>Alakline Earth</p>
+                </div>
+
+                <div class="flex-item" style="border: none; flex-grow: 15;">
+                    <h2></h2>
+                    <H3></H3>
+                    <p></p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>B</h2>
+                    <H3>Boron</H3>
+                    <p>Metalloid</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>C</h2>
+                    <H3>Carbon</H3>
+                    <p>Nonmetal</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>N</h2>
+                    <H3>Nitrogen</H3>
+                    <p>Nonmental</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>O</h2>
+                    <H3>Oxygen</H3>
+                    <p>Nonmetal</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>F</h2>
+                    <H3>Fluorine</H3>
+                    <p>Halogen</p>
+                </div>
+
+                <div class="flex-item" style="background-color: orange; justify-content: flex-end">
+                    <h2>Ne</h2>
+                    <H3>Neon</H3>
+                    <p>Noble Gas</p>
+                </div>
+            </div>
+
+            <!--Row 3 here -->
+            <div class="row-3">
+                <div class="flex-item" style="background-color: lightpink; justify-content: flex-start">
+                    <div class="elementNumbers">
+                        <p class="elementNumber">11</p>
+                        <p class="elementValue">22.98...</p>
+                    </div>
+                    <h2>Na</h2>
+                    <H3>Sodium</H3>
+                    <p>Alkali Metal</p>
+                </div>
+
+                <div class="flex-item" style="background-color: lightblue;">
+                    <h2>Mg</h2>
+                    <H3>Magnesium</H3>
+                    <p>Alakline Earth</p>
+                </div>
+
+                <div class="flex-item" style="border: none;">
+                    <h2></h2>
+                    <H3></H3>
+                    <p></p>
+                </div>
+
+                <div class="flex-item">
+                    <div class="elementNumbers">
+                        <p class="elementNumber">13</p>
+                        <p class="elementValue">26.98...</p>
+                    </div>
+                    <h2>Al</h2>
+                    <H3>Aluminium</H3>
+                    <p>Metalloid</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>Si</h2>
+                    <H3>Silicon</H3>
+                    <p>Nonmetal</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>P</h2>
+                    <H3>Phosphorous</H3>
+                    <p>Nonmental</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>S</h2>
+                    <H3>Sulfur</H3>
+                    <p>Nonmetal</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>Cl</h2>
+                    <H3>Chlorine</H3>
+                    <p>Halogen</p>
+                </div>
+
+                <div class="flex-item" style="background-color: orange justify-content: flex-end">
+                    <h2>Ar</h2>
+                    <H3>Argon</H3>
+                    <p>Noble Gas</p>
+                </div>
+            </div>
+
+            <!--Row 4 here -->
+
+            <div class="row-4">
+                <div class="flex-item" style="background-color: lightpink; justify-content: flex-start">
+                    <h2>K</h2>
+                    <H3>Potassium</H3>
+                    <p>Alkali Metal</p>
+                </div>
+
+                <div class="flex-item" style="background-color: lightblue;">
+                    <h2>Ca</h2>
+                    <H3>Calcium</H3>
+                    <p>Alakline Earth</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>Sc</h2>
+                    <H3>Scandium</H3>
+                    <p>Transition Metal</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>Ti</h2>
+                    <H3>Titanium</H3>
+                    <p>Transition Metal</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>V</h2>
+                    <H3>Vanadium</H3>
+                    <p>Transition Metal</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>Cr</h2>
+                    <H3>Chromium</H3>
+                    <p>Transition Metal</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>Mn</h2>
+                    <H3>Manganese</H3>
+                    <p>Transition Metal</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>Fe</h2>
+                    <H3>Iron</H3>
+                    <p>Transition Metal</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>Co</h2>
+                    <H3>Cobalt</H3>
+                    <p>Transition Metal</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>Ni</h2>
+                    <H3>Nickel</H3>
+                    <p>Transition Metal</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>Cu</h2>
+                    <H3>Copper</H3>
+                    <p>Transition Metal</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>Zn</h2>
+                    <H3>Zinc</H3>
+                    <p>Transition Metal</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>Ga</h2>
+                    <H3>Gallium</H3>
+                    <p>Post Transition</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>Ge</h2>
+                    <H3>Germanium</H3>
+                    <p>Metaloid</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>As</h2>
+                    <H3>Arsenic</H3>
+                    <p>Metaloid</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>Se</h2>
+                    <H3>Selenium</H3>
+                    <p>Nonmetal</p>
+                </div>
+
+                <div class="flex-item">
+                    <h2>Br</h2>
+                    <H3>Bromine</H3>
+                    <p>Halogen</p>
+                </div>
+
+                <div class="flex-item" style="background-color: orange; justify-content: flex-start">
+                    <h2>Kr</h2>
+                    <H3>Krypton</H3>
+                    <p>Noble Gas</p>
+                </div>
+            </div>
+
+    </main>
+
+    <picture id="periodic_img">
+        <source media="min-width: 1100px" srcset="large_img.png" />
+        <source media="min-width: 900px" srcset="medium_img.png" />
+        <source media="min-width: 600px" srcset="small_img.png" />
+        <img src="small_img.png" alt="Periodic Table of Elements" style="width: auto">
+    </picture>
+
+ </body>
+
+</html>

@@ -1,0 +1,1324 @@
+<!-- Recreate a periodic table -->
+<!-- it should change to esponsive when it loses it's structure -->
+<!-- when too small, replace with an image of a periodic table by making elements disappear using display attribute -->
+
+<!--This attempt is using a grid layout-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Grid Periodic Table Page Task 4">
+    <title>Task 4 - Periodic Table</title>
+    <link href="gridstyles.css" rel="stylesheet">
+
+</head>
+
+
+ <body>
+    <header>
+        <h1>Periodic Table of Elements</h1>
+    </header>
+
+    <hr>
+
+    <!-- Main body of Periodic table-->
+
+    <main class="grid-container">
+
+            <!--Row 1 here -->
+
+            <div class="grid-item row-1" style="grid-column: 1/2; background-color: lightyellow;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">1</p>
+                    <p class="elementValue">1.0080</p>
+                </div>
+                <h2>H</h2>
+                <h3>Hydrogen</h3>
+                <p>Nonmental</p>
+            </div>
+       
+            <div class="grid-item row-1" style="grid-column: 2/18; border: none;">
+                <h2></h2>
+                <h3></h3>
+                <p></p>
+            </div>
+
+            <div class="grid-item row-1" style="grid-column: 18/18; background-color: orange;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">2</p>
+                    <p class="elementValue">4.00260</p>
+                </div>
+                <h2>He</h2>
+                <h3>Helium</h3>
+                <p>Noble Gas</p>
+            </div>
+
+             <!--Row 2 here -->
+
+            <div class="grid-item row-2" style="grid-column: 1/2; background-color: lightpink;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">3</p>
+                    <p class="elementValue">7.0</p>
+                </div>
+                <h2>Li</h2>
+                <h3>Lithium</h3>
+                <p>Alkali Metal</p>
+            </div>
+
+            <div class="grid-item row-2" style="grid-column: 2/3; background-color: #CBC3E3;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">4</p>
+                    <p class="elementValue">9.01218</p>
+                </div>
+                <h2>Be</h2>
+                <h3>Beryllium</h3>
+                <p>Alakline Earth</p>
+            </div>
+
+            <div class="grid-item row-2" style="grid-column: 3/13; border: none;">
+                <h2></h2>
+                <h3></h3>
+                <p></p>
+            </div>
+
+            <div class="grid-item row-2" style="grid-column: 13/14; background-color: #FAC898;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">5</p>
+                    <p class="elementValue">10.81</p>
+                </div>
+                <h2>B</h2>
+                <h3>Boron</h3>
+                <p>Metalloid</p>
+            </div>
+
+            <div class="grid-item row-2" style="grid-column: 14/15; background-color: lightyellow;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">6</p>
+                    <p class="elementValue">12.011</p>
+                </div>
+                <h2>C</h2>
+                <h3>Carbon</h3>
+                <p>Nonmetal</p>
+            </div>
+
+            <div class="grid-item row-2" style="grid-column: 15/16; background-color: lightyellow;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">7</p>
+                    <p class="elementValue">14.007</p>
+                </div>
+                <h2>N</h2>
+                <h3>Nitrogen</h3>
+                <p>Nonmental</p>
+            </div>
+
+            <div class="grid-item row-2" style="grid-column: 16/17; background-color: lightyellow;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">8</p>
+                    <p class="elementValue">15.999</p>
+                </div>
+                <h2>O</h2>
+                <h3>Oxygen</h3>
+                <p>Nonmetal</p>
+            </div>
+
+            <div class="grid-item row-2" style="grid-column: 17/18; background-color: lightyellow;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">9</p>
+                    <p class="elementValue">18.998...</p>
+                </div>
+                <h2>F</h2>
+                <h3>Fluorine</h3>
+                <p>Halogen</p>
+            </div>
+
+            <div class="grid-item row-2" style="grid-column: 18/19; background-color: orange;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">10</p>
+                    <p class="elementValue">20.180</p>
+                </div>
+                <h2>Ne</h2>
+                <h3>Neon</h3>
+                <p>Noble Gas</p>
+            </div>
+
+            <!--Row 3 here -->
+
+            <div class="grid-item row-3" style="grid-column: 1/2; background-color: lightpink;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">11</p>
+                    <p class="elementValue">22.98...</p>
+                </div>
+                <h2>Na</h2>
+                <h3>Sodium</h3>
+                <p>Alkali Metal</p>
+            </div>
+
+            <div class="grid-item row-3" style="grid-column: 2/3; background-color: #CBC3E3;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">12</p>
+                    <p class="elementValue">23.305</p>
+                </div>
+                <h2>Mg</h2>
+                <h3>Magnesium</h3>
+                <p>Alakline Earth</p>
+            </div>
+
+            <div class="grid-item row-3" style="grid-column: 3/13; border: none;">
+                <h2></h2>
+                <h3></h3>
+                <p></p>
+            </div>
+
+            <div class="grid-item row-3" style="grid-column: 13/14; background-color: #e6ffe6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">13</p>
+                    <p class="elementValue">26.98...</p>
+                </div>
+                <h2>Al</h2>
+                <h3>Aluminium</h3>
+                <p>Metalloid</p>
+            </div>
+
+            <div class="grid-item row-3" style="grid-column: 14/15; background-color: #FAC898;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">14</p>
+                    <p class="elementValue">28.085</p>
+                </div>
+                <h2>Si</h2>
+                <h3>Silicon</h3>
+                <p>Nonmetal</p>
+            </div>
+
+            <div class="grid-item row-3" style="grid-column: 15/16; background-color: lightyellow;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">15</p>
+                    <p class="elementValue">30.97...</p>
+                </div>
+                <h2>P</h2>
+                <h3>Phosphorous</h3>
+                <p>Nonmental</p>
+            </div>
+
+            <div class="grid-item row-3" style="grid-column: 16/17; background-color: lightyellow;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">16</p>
+                    <p class="elementValue">32.07</p>
+                </div>
+                <h2>S</h2>
+                <h3>Sulfur</h3>
+                <p>Nonmetal</p>
+            </div>
+
+            <div class="grid-item row-3" style="grid-column: 17/18; background-color: lightyellow;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">17</p>
+                    <p class="elementValue">35.45</p>
+                </div>
+                <h2>Cl</h2>
+                <h3>Chlorine</h3>
+                <p>Halogen</p>
+            </div>
+
+            <div class="grid-item row-3" style="grid-column: 18/19; background-color: orange;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">18</p>
+                    <p class="elementValue">39.9</p>
+                </div>
+                <h2>Ar</h2>
+                <h3>Argon</h3>
+                <p>Noble Gas</p>
+            </div>
+
+            <!--Row 4 here -->
+
+            <div class="grid-item row-4" style="grid-column: 1/2; background-color: lightpink;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">19</p>
+                    <p class="elementValue">39.09...</p>
+                </div>
+                <h2>K</h2>
+                <h3>Potassium</h3>
+                <p>Alkali Metal</p>
+            </div>
+
+            <div class="grid-item row-4" style="grid-column: 2/3; background-color: #CBC3E3;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">20</p>
+                    <p class="elementValue">40.08</p>
+                </div> 
+                <h2>Ca</h2>
+                <h3>Calcium</h3>
+                <p>Alakline Earth</p>
+            </div>
+
+            <div class="grid-item row-4" style="grid-column: 3/4; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">21</p>
+                    <p class="elementValue">44.95...</p>
+                </div>
+                <h2>Sc</h2>
+                <h3>Scandium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-4" style="grid-column: 4/5; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">22</p>
+                    <p class="elementValue">47.867</p>
+                </div>
+                <h2>Ti</h2>
+                <h3>Titanium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-4" style="grid-column: 5/6; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">23</p>
+                    <p class="elementValue">50.9...</p>
+                </div>
+                <h2>V</h2>
+                <h3>Vanadium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-4" style="grid-column: 6/7; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">24</p>
+                    <p class="elementValue">51.996</p>
+                </div>
+                <h2>Cr</h2>
+                <h3>Chromium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-4" style="grid-column: 7/8; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">25</p>
+                    <p class="elementValue">54.9...</p>
+                </div>
+                <h2>Mn</h2>
+                <h3>Manganese</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-4" style="grid-column: 8/9; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">26</p>
+                    <p class="elementValue">55.84</p>
+                </div>
+                <h2>Fe</h2>
+                <h3>Iron</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-4" style="grid-column: 9/10; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">27</p>
+                    <p class="elementValue">58.93...</p>
+                </div>
+                <h2>Co</h2>
+                <h3>Cobalt</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-4" style="grid-column: 10/11; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">28</p>
+                    <p class="elementValue">58.693</p>
+                </div>
+                <h2>Ni</h2>
+                <h3>Nickel</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-4" style="grid-column: 11/12; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">29</p>
+                    <p class="elementValue">63.55</p>
+                </div>
+                <h2>Cu</h2>
+                <h3>Copper</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-4" style="grid-column: 12/13; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">30</p>
+                    <p class="elementValue">65.4</p>
+                </div>
+                <h2>Zn</h2>
+                <h3>Zinc</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-4" style="grid-column: 13/14; background-color: #e6ffe6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">31</p>
+                    <p class="elementValue">69.723</p>
+                </div>
+                <h2>Ga</h2>
+                <h3>Gallium</h3>
+                <p>Post Transition</p>
+            </div>
+
+            <div class="grid-item row-4" style="grid-column: 14/15; background-color: #FAC898;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">32</p>
+                    <p class="elementValue">72.63</p>
+                </div>
+                <h2>Ge</h2>
+                <h3>Germanium</h3>
+                <p>Metaloid</p>
+            </div>
+
+            <div class="grid-item row-4" style="grid-column: 15/16; background-color: #FAC898;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">33</p>
+                    <p class="elementValue">74.92...</p>
+                </div>
+                <h2>As</h2>
+                <h3>Arsenic</h3>
+                <p>Metaloid</p>
+            </div>
+
+            <div class="grid-item row-4" style="grid-column: 16/17; background-color: lightyellow;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">34</p>
+                    <p class="elementValue">78.97</p>
+                </div>
+                <h2>Se</h2>
+                <h3>Selenium</h3>
+                <p>Nonmetal</p>
+            </div>
+
+            <div class="grid-item row-4" style="grid-column: 17/18; background-color: lightyellow;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">35</p>
+                    <p class="elementValue">79.90</p>
+                </div>
+                <h2>Br</h2>
+                <h3>Bromine</h3>
+                <p>Halogen</p>
+            </div>
+
+            <div class="grid-item row-4" style="grid-column: 18/19; background-color: orange;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">36</p>
+                    <p class="elementValue">83.80</p>
+                </div>
+                <h2>Kr</h2>
+                <h3>Krypton</h3>
+                <p>Noble Gas</p>
+            </div>
+
+            <!--Row 5 here -->
+
+            <div class="grid-item row-5" style="grid-column: 1/2; background-color: lightpink;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">37</p>
+                    <p class="elementValue">85.468</p>
+                </div>
+                <h2>Rb</h2>
+                <h3>Rubidium</h3>
+                <p>Alkali Metal</p>
+            </div>
+
+            <div class="grid-item row-5" style="grid-column: 2/3; background-color: #CBC3E3;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">38</p>
+                    <p class="elementValue">87.62</p>
+                </div> 
+                <h2>Sr</h2>
+                <h3>Strontium</h3>
+                <p>Alakline Earth</p>
+            </div>
+
+            <div class="grid-item row-5" style="grid-column: 3/4; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">39</p>
+                    <p class="elementValue">88.9...</p>
+                </div>
+                <h2>Y</h2>
+                <h3>Yttrium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-5" style="grid-column: 4/5; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">40</p>
+                    <p class="elementValue">91.22</p>
+                </div>
+                <h2>Zr</h2>
+                <h3>Zirconium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-5" style="grid-column: 5/6; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">41</p>
+                    <p class="elementValue">92.90...</p>
+                </div>
+                <h2>Nb</h2>
+                <h3>Niobium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-5" style="grid-column: 6/7; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">42</p>
+                    <p class="elementValue">99.95</p>
+                </div>
+                <h2>Mo</h2>
+                <h3>Molybdenum</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-5" style="grid-column: 7/8; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">43</p>
+                    <p class="elementValue">98.9...</p>
+                </div>
+                <h2>Tc</h2>
+                <h3>Technetium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-5" style="grid-column: 8/9; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">44</p>
+                    <p class="elementValue">101.1</p>
+                </div>
+                <h2>Ru</h2>
+                <h3>Ruthenium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-5" style="grid-column: 9/10; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">45</p>
+                    <p class="elementValue">102.9...</p>
+                </div>
+                <h2>Rh</h2>
+                <h3>Rhodium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-5" style="grid-column: 10/11; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">46</p>
+                    <p class="elementValue">106.42</p>
+                </div>
+                <h2>Pd</h2>
+                <h3>Palladium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-5" style="grid-column: 11/12; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">47</p>
+                    <p class="elementValue">107.8...</p>
+                </div>
+                <h2>Ag</h2>
+                <h3>Silver</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-5" style="grid-column: 12/13; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">48</p>
+                    <p class="elementValue">112.41</p>
+                </div>
+                <h2>Cd</h2>
+                <h3>Cadmium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-5" style="grid-column: 13/14; background-color: #e6ffe6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">49</p>
+                    <p class="elementValue">114.8...</p>
+                </div>
+                <h2>In</h2>
+                <h3>Indium</h3>
+                <p>Post-Transition</p>
+            </div>
+
+            <div class="grid-item row-5" style="grid-column: 14/15; background-color: #e6ffe6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">50</p>
+                    <p class="elementValue">118.71</p>
+                </div>
+                <h2>Sn</h2>
+                <h3>Tin</h3>
+                <p>Post-Transition</p>
+            </div>
+
+            <div class="grid-item row-5" style="grid-column: 15/16; background-color: #FAC898;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">51</p>
+                    <p class="elementValue">121.780</p>
+                </div>
+                <h2>Sb</h2>
+                <h3>Antimony</h3>
+                <p>Metaloid</p>
+            </div>
+
+            <div class="grid-item row-5" style="grid-column: 16/17; background-color: #FAC898;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">52</p>
+                    <p class="elementValue">127.6</p>
+                </div>
+                <h2>Te</h2>
+                <h3>Tellurium</h3>
+                <p>Metalloid</p>
+            </div>
+
+            <div class="grid-item row-5" style="grid-column: 17/18; background-color: lightyellow;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">53</p>
+                    <p class="elementValue">126.9...</p>
+                </div>
+                <h2>I</h2>
+                <h3>Iodine</h3>
+                <p>Halogen</p>
+            </div>
+
+            <div class="grid-item row-5" style="grid-column: 18/19; background-color: orange;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">54</p>
+                    <p class="elementValue">131.29</p>
+                </div>
+                <h2>Xe</h2>
+                <h3>Xenon</h3>
+                <p>Noble Gas</p>
+            </div>
+
+    <!-- Row 6 starts here -->
+    
+            <div class="grid-item row-6" style="grid-column: 1/2; background-color: lightpink;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">55</p>
+                    <p class="elementValue">132.9...</p>
+                </div>
+                <h2>Cs</h2>
+                <h3>Cesium</h3>
+                <p>Alkali Metal</p>
+            </div>
+
+            <div class="grid-item row-6" style="grid-column: 2/3; background-color: #CBC3E3;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">56</p>
+                    <p class="elementValue">137.33</p>
+                </div> 
+                <h2>Ba</h2>
+                <h3>Barium</h3>
+                <p>Alakline Earth</p>
+            </div>
+
+            <div class="grid-item row-6" style="grid-column: 3/4; border: none;">
+                <div class="elementNumbers">
+                    <p class="elementNumber"></p>
+                    <p class="elementValue"></p>
+                </div>
+                <h2></h2>
+                <h3></h3>
+                <p></p>
+            </div>
+
+            <div class="grid-item row-6" style="grid-column: 4/5; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">72</p>
+                    <p class="elementValue">178.49</p>
+                </div>
+                <h2>Hf</h2>
+                <h3>Hafnium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-6" style="grid-column: 5/6; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">73</p>
+                    <p class="elementValue">180.9...</p>
+                </div>
+                <h2>Ta</h2>
+                <h3>Tantalum</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-6" style="grid-column: 6/7; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">74</p>
+                    <p class="elementValue">183.84</p>
+                </div>
+                <h2>W</h2>
+                <h3>Tungsten</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-6" style="grid-column: 7/8; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">75</p>
+                    <p class="elementValue">186.2...</p>
+                </div>
+                <h2>Re</h2>
+                <h3>Rhenium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-6" style="grid-column: 8/9; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">76</p>
+                    <p class="elementValue">190.2</p>
+                </div>
+                <h2>Os</h2>
+                <h3>Osmium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-6" style="grid-column: 9/10; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">77</p>
+                    <p class="elementValue">192.22</p>
+                </div>
+                <h2>Ir</h2>
+                <h3>Iridium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-6" style="grid-column: 10/11; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">78</p>
+                    <p class="elementValue">195.08</p>
+                </div>
+                <h2>Pt</h2>
+                <h3>Platinum</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-6" style="grid-column: 11/12; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">79</p>
+                    <p class="elementValue">196.9...</p>
+                </div>
+                <h2>Au</h2>
+                <h3>Gold</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-6" style="grid-column: 12/13; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">80</p>
+                    <p class="elementValue">200.59</p>
+                </div>
+                <h2>Hg</h2>
+                <h3>Mercury</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-6" style="grid-column: 13/14; background-color: #e6ffe6;">
+                <div class="elementNumbers"> 
+                    <p class="elementNumber">81</p>
+                    <p class="elementValue">204.3...</p>
+                </div>
+                <h2>Tl</h2>
+                <h3>Thallium</h3>
+                <p>Post-Transition</p>
+            </div>
+
+            <div class="grid-item row-6" style="grid-column: 14/15; background-color: #e6ffe6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">82</p>
+                    <p class="elementValue">207</p>
+                </div>
+                <h2>Pb</h2>
+                <h3>Lead</h3>
+                <p>Post-Transition</p>
+            </div>
+
+            <div class="grid-item row-6" style="grid-column: 15/16; background-color: #e6ffe6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">83</p>
+                    <p class="elementValue">208...</p>
+                </div>
+                <h2>Bi</h2>
+                <h3>Bismuth</h3>
+                <p>Post-Transition</p>
+            </div>
+
+            <div class="grid-item row-6" style="grid-column: 16/17; background-color: #FAC898;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">84</p>
+                    <p class="elementValue">208...</p>
+                </div>
+                <h2>Po</h2>
+                <h3>Polonium</h3>
+                <p>Metalloid</p>
+            </div>
+
+            <div class="grid-item row-6" style="grid-column: 17/18; background-color: lightyellow;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">85</p>
+                    <p class="elementValue">209...</p>
+                </div>
+                <h2>At</h2>
+                <h3>Astatine</h3>
+                <p>Halogen</p>
+            </div>
+
+            <div class="grid-item row-6" style="grid-column: 18/19; background-color: orange;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">86</p>
+                    <p class="elementValue">222...</p>
+                </div>
+                <h2>Rn</h2>
+                <h3>Radon</h3>
+                <p>Noble Gas</p>
+            </div>
+    
+    <!--Row 7 Starts here, nearly there...!-->
+
+            <div class="grid-item row-7" style="grid-column: 1/2; background-color: lightpink;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">87</p>
+                    <p class="elementValue">223.0...</p>
+                </div>
+                <h2>Fr</h2>
+                <h3>Francium</h3>
+                <p>Alkali Metal</p>
+            </div>
+
+            <div class="grid-item row-7" style="grid-column: 2/3; background-color: #CBC3E3;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">88</p>
+                    <p class="elementValue">226....</p>
+                </div> 
+                <h2>Ra</h2>
+                <h3>Radium</h3>
+                <p>Alakline Earth</p>
+            </div>
+
+            <div class="grid-item row-7" style="grid-column: 3/4; border: none;">
+                <div class="elementNumbers">
+                    <p class="elementNumber"></p>
+                    <p class="elementValue"></p>
+                </div>
+                <h2></h2>
+                <h3></h3>
+                <p></p>
+            </div>
+
+            <div class="grid-item row-7" style="grid-column: 4/5; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">104</p>
+                    <p class="elementValue">267...</p>
+                </div>
+                <h2>Rf</h2>
+                <h3>Rutherfordi...</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-7" style="grid-column: 5/6; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">105</p>
+                    <p class="elementValue">268...</p>
+                </div>
+                <h2>Db</h2>
+                <h3>Dubnium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-7" style="grid-column: 6/7; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">106</p>
+                    <p class="elementValue">269...</p>
+                </div>
+                <h2>Sg</h2>
+                <h3>Seaborgium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-7" style="grid-column: 7/8; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">107</p>
+                    <p class="elementValue">270....</p>
+                </div>
+                <h2>Bh</h2>
+                <h3>Bohrium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-7" style="grid-column: 8/9; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">108</p>
+                    <p class="elementValue">269...</p>
+                </div>
+                <h2>Hs</h2>
+                <h3>Hassium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-7" style="grid-column: 9/10; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">109</p>
+                    <p class="elementValue">277...</p>
+                </div>
+                <h2>Mt</h2>
+                <h3>Meitnerium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-7" style="grid-column: 10/11; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">110</p>
+                    <p class="elementValue">282...</p>
+                </div>
+                <h2>Ds</h2>
+                <h3>Darmstati...</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-7" style="grid-column: 11/12; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">111</p>
+                    <p class="elementValue">282...</p>
+                </div>
+                <h2>Rg</h2>
+                <h3>Roentgenium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-7" style="grid-column: 12/13; background-color: lightskyblue;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">112</p>
+                    <p class="elementValue">286...</p>
+                </div>
+                <h2>Cn</h2>
+                <h3>Copernicium</h3>
+                <p>Transition Metal</p>
+            </div>
+
+            <div class="grid-item row-7" style="grid-column: 13/14; background-color: #e6ffe6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">113</p>
+                    <p class="elementValue">286...</p>
+                </div>
+                <h2>Nh</h2>
+                <h3>Nihonium</h3>
+                <p>Post-Transition</p>
+            </div>
+
+            <div class="grid-item row-7" style="grid-column: 14/15; background-color: #e6ffe6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">114</p>
+                    <p class="elementValue">290...</p>
+                </div>
+                <h2>Fl</h2>
+                <h3>Flerovium</h3>
+                <p>Post-Transition</p>
+            </div>
+
+            <div class="grid-item row-7" style="grid-column: 15/16; background-color: #e6ffe6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">115</p>
+                    <p class="elementValue">290...</p>
+                </div>
+                <h2>Mc</h2>
+                <h3>Moscovium</h3>
+                <p>Post-Transition</p>
+            </div>
+
+            <div class="grid-item row-7" style="grid-column: 16/17; background-color: #e6ffe6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">116</p>
+                    <p class="elementValue">293...</p>
+                </div>
+                <h2>Lv</h2>
+                <h3>Livermorium</h3>
+                <p>Post-Transition</p>
+            </div>
+
+            <div class="grid-item row-7" style="grid-column: 17/18; background-color: lightyellow;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">117</p>
+                    <p class="elementValue">294....</p>
+                </div>
+                <h2>Ts</h2>
+                <h3>Tennessine</h3>
+                <p>Halogen</p>
+            </div>
+
+            <div class="grid-item row-7" style="grid-column: 18/19; background-color: orange;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">118</p>
+                    <p class="elementValue">295...</p>
+                </div>
+                <h2>Og</h2>
+                <h3>Oganesson</h3>
+                <p>Noble Gas</p>
+            </div>
+    
+    <!--Row 8 starts here-->
+
+            <div class="grid-item row-8" style="grid-column: 1/4; border: none;">
+                <div class="elementNumbers">
+                    <p class="elementNumber"></p>
+                    <p class="elementValue"></p>
+                </div>
+                <h2></h2>
+                <h3></h3>
+                <p></p>
+            </div>
+
+
+            <div class="grid-item row-8" style="grid-column: 4/5; background-color: #ADD8E6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">57</p>
+                    <p class="elementValue">138.9...</p>
+                </div>
+                <h2>La</h2>
+                <h3>Lanthanum</h3>
+                <p>Lanthanide</p>
+            </div>
+
+            <div class="grid-item row-8" style="grid-column: 5/6; background-color: #ADD8E6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">58</p>
+                    <p class="elementValue">140.1...</p>
+                </div>
+                <h2>Ce</h2>
+                <h3>Cerium</h3>
+                <p>Lanthanide</p>
+            </div>
+
+            <div class="grid-item row-8" style="grid-column: 6/7; background-color: #ADD8E6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">59</p>
+                    <p class="elementValue">140.9...</p>
+                </div>
+                <h2>Pr</h2>
+                <h3>Praseodym...</h3>
+                <p>Lanthanide</p>
+            </div>
+
+            <div class="grid-item row-8" style="grid-column: 7/8; background-color: #ADD8E6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">60</p>
+                    <p class="elementValue">144.24</p>
+                </div>
+                <h2>Nd</h2>
+                <h3>Neodymium</h3>
+                <p>Lanthanide</p>
+            </div>
+
+            <div class="grid-item row-8" style="grid-column: 8/9; background-color: #ADD8E6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">61</p>
+                    <p class="elementValue">144.9...</p>
+                </div>
+                <h2>Pm</h2>
+                <h3>Promethium</h3>
+                <p>Lanthanide</p>
+            </div>
+
+            <div class="grid-item row-8" style="grid-column: 9/10; background-color: #ADD8E6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">62</p>
+                    <p class="elementValue">150.4</p>
+                </div>
+                <h2>Sm</h2>
+                <h3>Samarium</h3>
+                <p>Lanthanide</p>
+            </div>
+
+            <div class="grid-item row-8" style="grid-column: 10/11; background-color: #ADD8E6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">63</p>
+                    <p class="elementValue">151.9...</p>
+                </div>
+                <h2>Eu</h2>
+                <h3>Europium</h3>
+                <p>Lanthanide</p>
+            </div>
+
+            <div class="grid-item row-8" style="grid-column: 18/19; background-color: #ADD8E6;;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">64</p>
+                    <p class="elementValue">157.2</p>
+                </div>
+                <h2>Gd</h2>
+                <h3>Gadolinium</h3>
+                <p>Lanthanide</p>
+            </div>
+    
+
+            <div class="grid-item row-8" style="grid-column: 11/12; background-color: #ADD8E6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">65</p>
+                    <p class="elementValue">158.9...</p>
+                </div>
+                <h2>Tb</h2>
+                <h3>Terbium</h3>
+                <p>Lanthanide</p>
+            </div>
+
+            <div class="grid-item row-8" style="grid-column: 12/13; background-color: #ADD8E6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">66</p>
+                    <p class="elementValue">162.5...</p>
+                </div>
+                <h2>Dy</h2>
+                <h3>Dysprosium</h3>
+                <p>Lanthanide</p>
+            </div>
+
+            <div class="grid-item row-8" style="grid-column: 13/14; background-color: #ADD8E6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">67</p>
+                    <p class="elementValue">164.9...</p>
+                </div>
+                <h2>Ho</h2>
+                <h3>Holmium</h3>
+                <p>Lanthanide</p>
+            </div>
+
+            <div class="grid-item row-8" style="grid-column: 14/15; background-color: #ADD8E6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">68</p>
+                    <p class="elementValue">167.28</p>
+                </div>
+                <h2>Er</h2>
+                <h3>Erblum</h3>
+                <p>Lanthanide</p>
+            </div>
+
+            <div class="grid-item row-8" style="grid-column: 15/16; background-color: #ADD8E6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">69</p>
+                    <p class="elementValue">168.9...</p>
+                </div>
+                <h2>Tm</h2>
+                <h3>Thullium</h3>
+                <p>Lanthanide</p>
+            </div>
+
+            <div class="grid-item row-8" style="grid-column: 16/17; background-color: #ADD8E6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">70</p>
+                    <p class="elementValue">173.05</p>
+                </div>
+                <h2>Yb</h2>
+                <h3>Ytterbium</h3>
+                <p>Lanthanide</p>
+            </div>
+
+            <div class="grid-item row-8" style="grid-column: 17/18; background-color: #ADD8E6;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">71</p>
+                    <p class="elementValue">174.9...</p>
+                </div>
+                <h2>Lu</h2>
+                <h3>Lutetium</h3>
+                <p>Lanthanide</p>
+            </div>
+
+            <!--Fact of the day: Lanthanide's are types of "rare earth" elements-->
+
+            <!--Row 9 start's here -->
+
+            <div class="grid-item row-9" style="grid-column: 1/4; border: none;">
+                <div class="elementNumbers">
+                    <p class="elementNumber"></p>
+                    <p class="elementValue"></p>
+                </div>
+                <h2></h2>
+                <h3></h3>
+                <p></p>
+            </div>
+
+
+            <div class="grid-item row-9" style="grid-column: 4/5; background-color: #ebffcd;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">89</p>
+                    <p class="elementValue">227.0...</p>
+                </div>
+                <h2>Ac</h2>
+                <h3>Actinium</h3>
+                <p>Actinide</p>
+            </div>
+
+            <div class="grid-item row-9" style="grid-column: 5/6; background-color: #ebffcd;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">90</p>
+                    <p class="elementValue">232...</p>
+                </div>
+                <h2>Th</h2>
+                <h3>Thorium</h3>
+                <p>Actinide</p>
+            </div>
+
+            <div class="grid-item row-9" style="grid-column: 6/7; background-color: #ebffcd;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">91</p>
+                    <p class="elementValue">231.0...</p>
+                </div>
+                <h2>Pa</h2>
+                <h3>Protactinium</h3>
+                <p>Actinide</p>
+            </div>
+
+            <div class="grid-item row-9" style="grid-column: 7/8; background-color: #ebffcd;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">92</p>
+                    <p class="elementValue">238...</p>
+                </div>
+                <h2>U</h2>
+                <h3>Uranium</h3>
+                <p>Actinide</p>
+            </div>
+
+            <div class="grid-item row-9" style="grid-column: 8/9; background-color: #ebffcd;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">93</p>
+                    <p class="elementValue">237.0...</p>
+                </div>
+                <h2>Np</h2>
+                <h3>Neptunium</h3>
+                <p>Actinide</p>
+            </div>
+
+            <div class="grid-item row-9" style="grid-column: 9/10; background-color: #ebffcd;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">94</p>
+                    <p class="elementValue">244....</p>
+                </div>
+                <h2>Pu</h2>
+                <h3>Plutonium</h3>
+                <p>Actinide</p>
+            </div>
+
+            <div class="grid-item row-9" style="grid-column: 10/11; background-color: #ebffcd;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">95</p>
+                    <p class="elementValue">243...</p>
+                </div>
+                <h2>Am</h2>
+                <h3>Americium</h3>
+                <p>Actinide</p>
+            </div>
+
+            <div class="grid-item row-9" style="grid-column: 18/19; background-color: #ebffcd;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">96</p>
+                    <p class="elementValue">247.0...</p>
+                </div>
+                <h2>Cm</h2>
+                <h3>Curium</h3>
+                <p>Actinide</p>
+            </div>
+
+            <div class="grid-item row-9" style="grid-column: 11/12; background-color: #ebffcd;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">97</p>
+                    <p class="elementValue">247.0...</p>
+                </div>
+                <h2>Bk</h2>
+                <h3>Berkelium</h3>
+                <p>Actinide</p>
+            </div>
+
+            <div class="grid-item row-9" style="grid-column: 12/13; background-color: #ebffcd;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">98</p>
+                    <p class="elementValue">251...</p>
+                </div>
+                <h2>Cf</h2>
+                <h3>Califorium</h3>
+                <p>Actinide</p>
+            </div>
+
+            <div class="grid-item row-9" style="grid-column: 13/14; background-color: #ebffcd;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">99</p>
+                    <p class="elementValue">252...</p>
+                </div>
+                <h2>Es</h2>
+                <h3>Einsteinium</h3>
+                <p>Actinide</p>
+            </div>
+
+            <div class="grid-item row-9" style="grid-column: 14/15; background-color: #ebffcd;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">100</p>
+                    <p class="elementValue">257....</p>
+                </div>
+                <h2>Fm</h2>
+                <h3>Fermium</h3>
+                <p>Actinide</p>
+            </div>
+
+            <div class="grid-item row-9" style="grid-column: 15/16; background-color: #ebffcd;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">101</p>
+                    <p class="elementValue">258...</p>
+                </div>
+                <h2>Md</h2>
+                <h3>Mendelevium</h3>
+                <p>Actinide</p>
+            </div>
+ 
+            <div class="grid-item row-9" style="grid-column: 16/17; background-color: #ebffcd;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">102</p>
+                    <p class="elementValue">259...</p>
+                </div>
+                <h2>No</h2>
+                <h3>Nobellium</h3>
+                <p>Actinide</p>
+            </div>
+
+            <div class="grid-item row-9" style="grid-column: 17/18; background-color: #ebffcd;">
+                <div class="elementNumbers">
+                    <p class="elementNumber">103</p>
+                    <p class="elementValue">266...</p>
+                </div>
+                <h2>Lr</h2>
+                <h3>Lawrencium</h3>
+                <p>Actinide</p>
+            </div>
+
+    <!--Actinide's are also rare earther minerials. 
+    Another fact, U and Th are the only one's found in nature-->
+    
+    </main>
+
+    <!--Replacing the table with a static image when it gets too small-->
+
+    <picture id="periodic_img_small">
+        <source media="min-width: 950px" srcset="large_img.png" />
+        <source media="min-width: 800px" srcset="medium_img.png" />
+        <source media="width: 650px" srcset="small_img.png" />
+        <img src="small_img.png" alt="Periodic Table of Elements" style="width: auto">
+    </picture>
+
+    <!-- <picture id="periodic_img_medium">
+        <source media="min-width: 800px" srcset="medium_img.png" />
+        <img src="medium_img.png" alt="Periodic Table of Elements" style="width: auto">
+    </picture>
+
+        <picture id="periodic_img_large">
+        <source media="min-width: 950px" srcset="large_img.png" />
+        <img src="small_large.png" alt="Periodic Table of Elements" style="width: auto">
+    </picture> -->
+
+    <hr>
+
+<footer>
+    <a href="https://en.wikipedia.org/wiki/Periodic_table">Visit here for information about the periodic table</a>
+</footer>
+
+ </body>
+
+</html>
