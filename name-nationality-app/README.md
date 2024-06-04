@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React project takes an input from a user, calls an API, and returns a likely nationality for the users name
 
 ## Available Scripts
 
