@@ -1,0 +1,125 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: yellowgreen;
+}
+
+.App {
+  text-align: center;
+  color: black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  background-color: yellowgreen;
+}
+
+.App-header {
+  font-size: calc(10px + 2vmin);
+  margin: 20px;
+  padding-top: 20px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.App-header h1 {
+  font-size: 50px;
+}
+
+.App-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Car-info {
+ padding: 20px;
+ margin: 20px;
+}
+
+.Car-list-edit-delete {
+ padding-top: 20px;
+ margin: 20px;
+}
+
+.form-container {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  border: solid 2px darkgreen;
+}
+
+.form-group {
+  padding:10px;
+}
+
+.car-list-container {
+  padding: 10px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+  border: solid 2px darkgreen;
+}
+
+.car-item-list {
+    padding:20px;
+    margin: 10px;
+}
+
+.car-list-header {
+  padding-top: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.form-submit-button {
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.editing-button {
+  background-color: green;
+  color: white;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.deleting-button {
+  background-color: red;
+  color: white;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.cancel-button {
+  background-color: yellow;
+  color: black;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.save-button {
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.h2-task23-part2-was-tricky {
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
