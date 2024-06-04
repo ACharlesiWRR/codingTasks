@@ -27,7 +27,7 @@ app.use('/api', routes);
 
 //MongoDB Connection
 const url =
-  "mongodb+srv://adam:Tsrynfxjy2yTsovt@cluster0.bwdenxs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://<insertUserNameHere>:<insertPasswordHere>.bwdenxs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 const clientOptions = {
   serverApi: { version: "1", strict: true, deprecationErrors: true },
