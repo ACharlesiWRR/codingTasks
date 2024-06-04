@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  background-color: yellow;
+  padding: 40px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.PhoneScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* box-sizing: border-box;  */
+  max-width: 430px;
+  max-height: 932px;
+  border: 5px solid #000000;
+  border-radius: 30px;
+  padding: 20px; 
+  background-color: #ffffff;
+  column-gap: 20px;
+}
+
+.elements {
+  margin: 20px;
+}
+
+.deposit {
+  margin: 10px;
+  padding: 10px;
+}
+
+.withdrawal {
+  margin: 10px;
+}
+
+.button {
+  margin: 10px;
+}
+
+.interest p {
+  margin-bottom: 0px;
+}
