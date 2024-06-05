@@ -24,7 +24,7 @@ function App() {
         <CarInfo onAdd={addCar} className="Car-info" />
         <CarList cars={cars} setCars={setCars} className="Car-list-edit-delete" />
       </div>
-      <h2 className="h2-task23-part2-was-tricky">This was a tough one! :-S</h2>
+      <h2 className="h2-task23-part2-was-tricky">Enjoy using my fullstack app! :-S</h2>
     </div>
   );
 }
